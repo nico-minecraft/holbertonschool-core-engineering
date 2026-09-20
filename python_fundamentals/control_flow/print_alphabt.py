@@ -6,4 +6,4 @@ for code in range(ord('a'), ord('z') + 1):
     if letter != 'q' and letter != 'e':
         result += letter
 
-print(result)
+print("{}".format(result))
