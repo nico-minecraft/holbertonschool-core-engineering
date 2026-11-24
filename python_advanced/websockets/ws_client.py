@@ -5,7 +5,7 @@ import asyncio
 import websockets
 
 URI = "ws://localhost:8765"
-MESSAGE = "demo"
+MESSAGE = "Hello WebSocket"
 
 
 async def connect_and_send(uri: str, text: str) -> str:
